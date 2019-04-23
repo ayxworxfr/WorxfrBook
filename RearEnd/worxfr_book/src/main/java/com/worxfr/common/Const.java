@@ -9,11 +9,13 @@ public class Const {
 
 
     public interface RoleCode{
-        public static String ROLE_ADMIN = "rc000001";        // 超级管理员
-        public static String ROLE_ADMIN2 = "rc000002";       // 普通管理员
-        public static String ROLE_MANAGE = "rc000003";
-        public static String ROLE_MANAGE2 = "rc000004";
-        public static String ROLE_CLERK= "rc000005";
-        public static String ROLE_USER = "rc000006";
+    public static String ROLE_ADMIN = "rc000001";                 // 超级管理员
+    public static String ROLE_ADMIN2 = "rc000002";                // 普通管理员
+    public static String ROLE_AUTHOR = "rc000003";                // 高级作家
+    public static String ROLE_AUTHOR2 = "rc000004";               // 中级作家
+    public static String ROLE_AUTHOR3= "rc000005";                // 初级作家
+    public static String ROLE_SVIP = "rc000006";                  // 读者SVIP
+    public static String ROLE_VIP= "rc000007";                    // 读者VIP
+    public static String ROLE_NORMAL = "rc000008";                // 普通读者
     }
 }
